@@ -15,4 +15,16 @@ int main(){
     //memberi nilai pada elemen array per index
     nama[3]= "Ridha";
     cout << "Nama pada index 4 adalah " << nama[3] << endl;
+
+    cout << "input score" << endl;
+    cout << endl;
+
+    // memberi nilai array dengan looping for
+    for(int i = 0; i<5; i++){
+        cout << "Score ke- " << i+1 << "= ";
+        cin >> score[i];
+    }
+
+    
+
 }
