@@ -25,6 +25,11 @@ int main(){
         cin >> score[i];
     }
 
-    
+    cout << "menampilkan score" << endl;
+    cout << endl;
 
+    // menampilkan nilai array dengan looping for
+    for(int i = 0; i<5; i++){
+        cout << "Score ke- " << i+1 << "= " << score[i] << endl;
+    }
 }
